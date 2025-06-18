@@ -1,6 +1,8 @@
-
-function Home() {
-    return <h1 className="text-3xl font-bold text-blue-600">Home Page</h1>;
+export default function Home() {
+    return (
+      <div className="min-h-screen bg-[#FFE8CD] p-8">
+        <h1 className="text-3xl font-bold">Welcome to KidKartz!</h1>
+        <p>Homepage content goes here.</p>
+      </div>
+    );
   }
-  
-  export default Home;
